@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+    <!-- device tree repos -->
+	<project path="device/samsung/universal7880-common" name="aymanrgab/android_device_samsung_universal7880-common" revision="hybris-17.1"/>
+	<project path="device/samsung/a5y17lte" name="aymanrgab/android_device_samsung_a5y17lte" revision="hybris-17.1"/>
+	<project path="kernel/samsung/universal7880" name="aymanrgab/android_kernel_samsung_axy17lte" revision="halium-10.0"/>
+	<project path="vendor/samsung" name="aymanrgab/proprietary_vendor_samsung" revision="lineage-17.1_7880only"/>
+	<project path="hardware/samsung" name="LineageOS/android_hardware_samsung" remote="github" revision="lineage-17.1"/>
+    <!-- sfos repos -->
+	<remove-project path="hybris/hybris-boot" name="mer-hybris/hybris-boot" />
+    <project path="hybris/hybris-boot" name="aymanrgab/hybris-boot" revision="master" />
+    <project path="external/libhybris" name="mer-hybris/libhybris" revision="master" />
+    <project path="rpm/" name="aymanrgab/droid-hal-a5y17lte" revision="hybris-17.1" />
+    <project path="hybris/droid-configs" name="aymanrgab/droid-config-a5y17lte" revision="hybris-17.1" />
+    <project path="hybris/droid-hal-version-a5y17lte" name="aymanrgab/droid-hal-version-a5y17lte" revision="main" />
+    <!-- Custom fingerprint -->
+    <project path="hybris/mw/sailfish-fpd-community" name="sailfishos-open/sailfish-fpd-community" revision="master" />
+</manifest>
+
