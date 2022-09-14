@@ -1,1 +1,1 @@
-# a5y17lte local_manifests
+# Exynos7880 local_manifests
