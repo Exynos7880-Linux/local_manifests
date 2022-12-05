@@ -3,22 +3,12 @@
     <!-- device tree repos -->
 	<project path="device/samsung/universal7880-common" name="aymanrgab/android_device_samsung_universal7880-common" revision="hybris-17.1"/>
 	<project path="device/samsung/a5y17lte" name="aymanrgab/android_device_samsung_a5y17lte" revision="hybris-17.1"/>
-	<project path="kernel/samsung/universal7880" name="aymanrgab/kernel-samsung-exynos7880" revision="halium-10.0"/>
+	<project path="kernel/samsung/universal7880" name="aymanrgab/android_kernel_samsung_universal7880" revision="hybris-17.1"/>
 	<project path="vendor/samsung" name="aymanrgab/proprietary_vendor_samsung" revision="hybris-17.1"/>
 	<project path="hardware/samsung" name="LineageOS/android_hardware_samsung" remote="github" revision="lineage-17.1"/>
 	<project path="hardware/samsung_slsi/exynos" name="LineageOS/android_hardware_samsung_slsi_exynos" remote="github" revision="lineage-18.1"/>
 	<project path="hardware/samsung_slsi/exynos5" name="LineageOS/android_hardware_samsung_slsi_exynos5" remote="github" revision="lineage-18.1"/>
 	<project path="hardware/samsung_slsi/universal7880" name="LineageOS/android_hardware_samsung_slsi_exynos7880" remote="github" revision="lineage-18.1"/>
 	<project path="hardware/samsung_slsi/openmax" name="LineageOS/android_hardware_samsung_slsi_openmax" remote="github" revision="lineage-18.1"/>
-    <!-- sfos repos -->
-	<remove-project path="hybris/hybris-boot" name="mer-hybris/hybris-boot" />
-    <project path="hybris/hybris-boot" name="aymanrgab/hybris-boot" revision="master" />
-    <project path="external/libhybris" name="mer-hybris/libhybris" revision="master" />
-    <project path="rpm/" name="aymanrgab/droid-hal-a5y17lte" revision="hybris-17.1" />
-    <project path="hybris/droid-configs" name="aymanrgab/droid-config-a5y17lte" revision="hybris-17.1" />
-    <project path="hybris/droid-hal-version-a5y17lte" name="aymanrgab/droid-hal-version-a5y17lte" revision="main" />
-    <!-- Custom fingerprint -->
-    <project path="hybris/mw/sailfish-fpd-community" name="sailfishos-open/sailfish-fpd-community" revision="master" />
-    <project path="external/fake_crypt" name="erfanoabdi/fake_crypt" revision="master" />
 </manifest>
 
