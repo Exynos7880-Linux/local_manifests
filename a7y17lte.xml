@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
     <!-- device tree repos -->
-	<project path="device/samsung/universal7880-common" name="Exynos7880-Linux/android_device_samsung_universal7880-common" revision="hybris-17.1"/>
+	<project path="device/samsung/universal7880-common" name="aymanrgab/android_device_samsung_universal7880-common" revision="hybris-17.1"/>
 	<project path="device/samsung/a7y17lte" name="Exynos7880-Linux/android_device_samsung_a7y17lte" revision="hybris-17.1"/>
-	<project path="kernel/samsung/universal7880" name="Exynos7880-Linux/kernel-samsung-exynos7880" revision="halium-10.0"/>
+	<project path="kernel/samsung/universal7880" name="Exynos7880-Linux/android_kernel_samsung_universal7880" revision="hybris-17.1"/>
 	<project path="vendor/samsung" name="Exynos7880-Linux/proprietary_vendor_samsung" revision="hybris-17.1"/>
 	<project path="hardware/samsung" name="LineageOS/android_hardware_samsung" remote="github" revision="lineage-17.1"/>
 	<project path="hardware/samsung_slsi/exynos" name="LineageOS/android_hardware_samsung_slsi_exynos" remote="github" revision="lineage-18.1"/>
