@@ -3,22 +3,24 @@
     <!-- device tree repos -->
 	<project path="device/samsung/universal7880-common" name="aymanrgab/android_device_samsung_universal7880-common" revision="hybris-17.1"/>
 	<project path="device/samsung/a7y17lte" name="Exynos7880-Linux/android_device_samsung_a7y17lte" revision="hybris-17.1"/>
-	<project path="kernel/samsung/universal7880" name="Exynos7880-Linux/android_kernel_samsung_universal7880" revision="hybris-17.1"/>
+	<project path="kernel/samsung/universal7880" name="Exynos7880-Linux/linux-android-samsung-a5y17lte" revision="bookworm"/>
 	<project path="vendor/samsung" name="Exynos7880-Linux/proprietary_vendor_samsung" revision="hybris-17.1"/>
 	<project path="hardware/samsung" name="LineageOS/android_hardware_samsung" remote="github" revision="lineage-17.1"/>
 	<project path="hardware/samsung_slsi/exynos" name="LineageOS/android_hardware_samsung_slsi_exynos" remote="github" revision="lineage-18.1"/>
 	<project path="hardware/samsung_slsi/exynos5" name="LineageOS/android_hardware_samsung_slsi_exynos5" remote="github" revision="lineage-18.1"/>
-	<project path="hardware/samsung_slsi/universal7880" name="LineageOS/android_hardware_samsung_slsi_exynos7880" remote="github" revision="lineage-18.1"/>
+	<project path="hardware/samsung_slsi/exynos7880" name="LineageOS/android_hardware_samsung_slsi_exynos7880" remote="github" revision="lineage-18.1"/>
 	<project path="hardware/samsung_slsi/openmax" name="LineageOS/android_hardware_samsung_slsi_openmax" remote="github" revision="lineage-18.1"/>
     <!-- sfos repos -->
 	<remove-project path="hybris/hybris-boot" name="mer-hybris/hybris-boot" />
-    <project path="hybris/hybris-boot" name="aymanrgab/hybris-boot" revision="master" />
+    <project path="hybris/hybris-boot" name="Exynos7880-Linux/hybris-boot" revision="master" />
     <project path="external/libhybris" name="mer-hybris/libhybris" revision="master" />
     <project path="rpm/" name="Exynos7880-Linux/droid-hal-a7y17lte" revision="master" />
     <project path="hybris/droid-configs" name="Exynos7880-Linux/droid-config-a7y17lte" revision="master" />
     <project path="hybris/droid-hal-version-a7y17lte" name="Exynos7880-Linux/droid-hal-version-a7y17lte" revision="master" />
+    <project path="hybris/mw/yamuisplash" name="Exynos7880-Linux/yamuisplash" revision="master" />
+    <project path="hybris/mw/droid-system-vendor-a7y17lte" name="Exynos7880-Linux/droid-vendor-a7y17lte" revision="master" />
+    <project path="hybris/mw/droid-system-a7y17lte" name="Exynos7880-Linux/droid-system-a7y17lte" revision="master" />
     <!-- Custom fingerprint -->
     <project path="hybris/mw/sailfish-fpd-community" name="sailfishos-open/sailfish-fpd-community" revision="master" />
     <project path="external/fake_crypt" name="erfanoabdi/fake_crypt" revision="master" />
 </manifest>
-
